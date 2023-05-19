@@ -1,0 +1,27 @@
+.error-message, .suces-message{
+  display: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  max-width: 340px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px auto;
+}
+.error-message{
+  background-color: rgb(255, 46, 46);
+}
+.suces-message{
+  background: green;
+}
+.margin {
+  margin-top:40px;
+}
+
+.required:disabled{
+  cursor: not-allowed;
+}
